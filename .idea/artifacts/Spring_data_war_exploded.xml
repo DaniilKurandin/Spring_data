@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Spring_data:war exploded">
-    <output-path>$PROJECT_DIR$/target/Spring_data-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/Example</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -60,7 +60,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/Spring_data-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/Example/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Spring_data/web/Web" />
     </root>

@@ -1,6 +1,6 @@
 package com.app.controllers;
 
-import com.app.dao.interfaces.UserDao;
+import com.app.dao.interfaces.UserDAO;
 import com.app.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/users")
+@RequestMapping("/user")
 public class UserServlet {
     //    List<User> list = new ArrayList<>();
-    UserDao userDAO;
+    UserDAO userDAO;
 
     //@RequestMapping(value = "/form", method = RequestMethod.GET)
     @GetMapping(value = "/add")
@@ -49,7 +49,7 @@ public class UserServlet {
     }
 
     @Autowired
-    public void setUserDAO(UserDao userDAO) {
+    public void setUserDAO(UserDAO userDAO) {
         this.userDAO = userDAO;
     }
 }

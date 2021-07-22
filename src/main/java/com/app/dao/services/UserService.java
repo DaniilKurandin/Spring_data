@@ -1,6 +1,6 @@
 package com.app.dao.services;
 
-import com.app.dao.interfaces.UserDao;
+import com.app.dao.interfaces.UserDAO;
 import com.app.dao.repositories.UserRepository;
 import com.app.entities.User;
 import com.google.common.collect.Lists;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class UserService implements UserDao {
+public class UserService implements UserDAO {
     private UserRepository userRepository;
 
     @Autowired

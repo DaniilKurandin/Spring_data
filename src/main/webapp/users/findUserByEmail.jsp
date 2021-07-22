@@ -11,12 +11,12 @@
     <title>User Email</title>
 </head>
 <body>
-<form action="../users/findUserByEmail" method="post">
+<form action="../user/findUserByEmail" method="post">
     <p>Email : <input type="text" name="email"></p>
     <input type="submit" value="Pass data">
 </form>
 
-<h3><a href="../users/findUserByEmail">Search new one...</a></h3>
+<h3><a href="../user/findUserByEmail">Search new one...</a></h3>
 <p><a href="../index.jsp">Go to main...</a></p>
 </body>
 </html>

@@ -14,7 +14,7 @@
 <h3>User login: ${user.login}</h3>
 <h3>User email: ${user.email}</h3>
 <hr>
-<p><a href="../users/add">Go to users form...</a></p>
-<p><a href="../users/all">Get list...</a></p>
+<p><a href="../user/add">Go to users form...</a></p>
+<p><a href="../user/all">Get list...</a></p>
 </body>
 </html>
